@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(Fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: 'Roboto-BlackItalic';
+    src: url(Fonts/Roboto-BlackItalic.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(Fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'Roboto-BoldItalic';
+    src: url(Fonts/Roboto-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url(Fonts/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(Fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url(Fonts/Roboto-LightItalic.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(Fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'Roboto-MediusmItalic';
+    src: url(Fonts/Roboto-MediumItalic.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(Fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(Fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: 'Roboto-ThinItalic';
+    src: url(Fonts/Roboto-ThinItalic.ttf);
+}
+
+/*Side 1*/
+body {
+    margin:0;
+    padding:0;
+}
+.header{
+    color:white;
+    background-color: #202936;
+    padding: 1px;
+    text-align: center;
+}
+
+.header_links{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+hr {
+    height: 1px;
+    background-color: grey;
+}
+
+.header + hr{
+    margin: -1px;
+}
+
+.side1_del1{
+    font-family: Roboto-Black;
+    display: flex;
+    background-color: #202936;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px;
+    align-items: center;
+    margin: 0 auto;
+}
+.side1_del1 h1{
+    font-size: 200%;
+    color: white;
+    text-align: left;
+    gap: 100%;
+    max-width: 50%;
+}
+.side1_del1 h2{
+    font-size: 100%;
+    color: white;
+    text-align: left;
+    max-width: 50%;
+}
+
+.side1_del1 p {
+    text-align: left;
+}
+
+
+.side1_del2{
+    font-family: Roboto-Regular;
+    max-width: 800px;   /*midten*/
+    margin: auto;       /*midten*/
+    padding: 20px;      /*Mer mellomrom fra side1_del1*/
+}
+
+.side1_del2 h2{
+    text-align: center;
+}
+
+.innhold{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.box{
+    width: 300px;
+    height: 150px;
+    border: 2px solid #00f;  /*Farge paa boarder/kanten*/
+    border-radius: 5px;     /*Setter radius, aka sirkel på firkanten*/
+}
+
+.del2_text{
+    padding: 20px;
+    flex: 1;
+}
+
+.side1_del2 h4{
+    font-size: 20px;
+}
+
+
+/* DEL 3, aka albert einstein delen */
+
+.side1_del3{
+    font-family: Roboto-Regular;
+    background-color: lightgray;
+    padding: 40px;
+}
+
+.side1_del3 p{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-size: 180%;
+}
+.side1_del3 h5{
+    max-width: 800px;
+    margin: auto;
+    text-align: right;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+
+
+.side1_del4{
+    font-family: Roboto-Regular;
+    display: flex;
+    color: white;
+    font-size: 120%;
+    max-width: 800px;
+    margin: auto;
+    padding:10px;
+    border-radius: 10px;     /*Setter radius, aka sirkel på firkanten*/
+    background-color: blue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.knapp{
+    display: flex;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.knapp button{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: blue;
+    color: white;
+}
+
+
+
+.tail{
+    background-color: #202936;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 120%;
+}
+
+/*SIDE 2 */
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+    margin-bottom: 80px;
+}
+article{
+    max-width: 30%;
+    box-sizing: border-box;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+
+/* SIDE 3 NEDENFOR!*/
+
+.data-land-seleksjon{
+    text-align: center;
+}
+
+.data-land-seleksjon h2{
+    background-color: #202936;
+    color: white;
+    padding: 20px;
+}
